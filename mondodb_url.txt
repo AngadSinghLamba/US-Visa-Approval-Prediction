@@ -1,0 +1,1 @@
+"mongodb+srv://angad:angad@cluster0.d3ay6ss.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
