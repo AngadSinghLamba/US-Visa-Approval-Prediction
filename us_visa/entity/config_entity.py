@@ -39,10 +39,13 @@ This defines a data class DataIngestionConfig with attributes related to data in
  It uses training_pipeline_config.artifact_dir to construct file paths for data ingestion, 
  including feature store file path, training file path, and testing file path.
 """
-
 @dataclass
 class DataValidationConfig:
-    pass
+    data_validation_dir: str = os.path.join(training_pipeline_config.artifact_dir, DATA_VALIDATION_DIR_NAME)
+    drift_report_file_path: str = os.path.join(data_validation_dir, DATA_VALIDATION_DRIFT_REPORT_DIR,
+                                               DATA_VALIDATION_DRIFT_REPORT_FILE_NAME)
+    
+
 """
 This defines a data class DataValidationConfig without any attributes for now.
  It's a placeholder for future use.
