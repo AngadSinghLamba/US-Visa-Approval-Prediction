@@ -33,4 +33,4 @@ pipeline which stage to come after which.
 app.py / demo.py
 
 ## Export the environment variable
-export MONGODB_URL=" "mongodb+srv://angad:angadlamba@cluster0.d3ay6ss.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+export MONGODB_URL="mongodb+srv://angad:angadlamba@cluster0.d3ay6ss.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
