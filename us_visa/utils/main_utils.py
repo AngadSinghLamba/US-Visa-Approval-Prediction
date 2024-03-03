@@ -1,4 +1,3 @@
-# if I need to run same fuction/code very common we can store under util and can import it and run from there
 import os
 import sys
 
