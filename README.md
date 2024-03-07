@@ -38,7 +38,8 @@ pipeline which stage to come after which.
 app.py / demo.py
 
 ## Export the environment variable
-export MONGODB_URL
+export MONGODB_URL="mongodb+srv://angad:angadlamba@cluster0.d3ay6ss.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
-export AWS_ACCESS_KEY_ID
-export AWS_SECRET_ACCESS_KEY zdsczs
+export AWS_ACCESS_KEY_ID="AKIA2UC3A666COZ5ZVXD"
+
+export AWS_SECRET_ACCESS_KEY="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"
